@@ -1,0 +1,173 @@
+/* Barra de navegacion */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+
+    position: sticky;
+    /*position: sticky; /*Esto hace que el navbar se quede pegado en la parte de arriba */
+    /* top: 0; */
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    
+    --clip: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+.nav-link::after{
+    content: "";
+    display: block;
+    background-color: #2b182c;
+    width: 90%;
+    height: 3px;
+    margin-top: 3px;
+    clip-path: var(--clip);
+    transition: clip-path .5s;
+
+}
+
+.nav-link:hover{
+    --clip:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   
+}
+/* General style */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;;
+ }
+
+.seccion__oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion__clara{
+    color: #000;
+    background-color: white;
+}
+.seccion__titulo{
+    font-size: 2rem;
+    padding:15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion__texto{
+    font-size: 1.2rem;
+
+}
+/* Seccion Hero */
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero__principal{
+    padding: 3rem;
+}
+
+.hero__imagen__desarrollador{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+.hero__principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+/* About me */
+.about__me{
+    height: 500px;
+    padding: 10px;
+}
+
+.about__me .contenedor{
+    max-width: 600px;
+    text-align: center;
+
+}
+
+/* Experiencia */
+.experiencia{
+    padding: 40px 40px 60px 40px;
+    gap: 10px 10px;
+    
+    
+}
+
+/* Adaptable (resposivo) */
+.experiencia__titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+.experiencia .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+
+}
+
+
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experiencia i{
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges{
+    margin: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .hero__inferior__imagen{
+        max-width: 600px;
+    }
+}
