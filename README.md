@@ -1,9 +1,3 @@
-# Curso-Bootstrap
-Aprendiendo Bootrap
+# Project 0
 
-En el siguente repositorio estare subiendo lo que vaya aprendiendo de bootstrap 5
-Como diferentes proyectos o cualquier cosa.
-
-:).
-
-
+Web Programming with Python and JavaScript
