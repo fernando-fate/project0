@@ -246,8 +246,22 @@ section{
         display: none;
 
     }
+    
+    .collapse{
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
 
 }
+
 
 @media screen and (min-width:700px) {
     .hero__inferior__imagen{
