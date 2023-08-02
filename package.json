@@ -1,0 +1,15 @@
+{
+  "name": "project0",
+  "version": "1.0.0",
+  "description": "Web Programming with Python and JavaScript\r En el presente proyecto trata sobre mi. Para dar a conocer quien soy tengo un home page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.64.2"
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-shadow: 0;
+}
+
+.horario__tabla {
+  caption-side: top;
+  width: 100%;
+  text-align: center;
+}
+.horario__tabla tr {
+  height: 100px;
+}
+.horario__tabla td {
+  width: 50px;
+}
+.horario__tabla > caption {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 8px;
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+/*# sourceMappingURL=Horario.css.map */
