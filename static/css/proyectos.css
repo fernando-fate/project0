@@ -101,86 +101,6 @@ h1 {
     align-items: center;
   }
 }
-/* Seccion Hero */
-.hero {
-  background-color: #f5f6f7;
-  min-height: 450px;
-  text-align: center;
-}
-
-.hero__principal {
-  padding: 3rem;
-}
-
-.hero__imagen__desarrollador {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 20px;
-}
-
-.hero__principal h2 {
-  font-size: 1.5rem;
-  color: #615151;
-}
-
-/* About me */
-.about__me {
-  height: 500px;
-  padding: 10px;
-}
-
-.about__me .contenedor {
-  max-width: 600px;
-  text-align: center;
-}
-
-/* Experiencia */
-.experiencia {
-  padding: 40px 40px 60px 40px;
-  gap: 10px 10px;
-}
-
-/* Adaptable (resposivo) */
-.experiencia__titulo {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-.experiencia .columna {
-  padding: 20px;
-  border: 2px solid rgba(128, 128, 128, 0.3019607843);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  transition: all 0.2s ease-in;
-}
-
-.experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
-}
-
-.experiencia i {
-  font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
-  padding: 8px 19px;
-  border-radius: 50%;
-}
-
-.badges-contenedor {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-.badges {
-  margin: 5px;
-}
-
 /*Proyectos  */
 .proyectos__recientes {
   padding: 40px;
@@ -238,31 +158,4 @@ h1 {
 
 .proyecto:hover img {
   opacity: 0.2;
-}
-
-/* testimonios */
-.testimonios {
-  padding: 40px 40px 80px 40px;
-}
-
-.testimonios .carousel {
-  max-width: 800px;
-}
-
-.corousel-item {
-  height: 500px;
-}
-
-@media screen and (min-width: 700px) {
-  .hero__inferior__imagen {
-    max-width: 600px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .overlay p {
-    font-size: 18px;
-  }
-  .overlay i {
-    font-size: 40px;
-  }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=proyectos.css.map */

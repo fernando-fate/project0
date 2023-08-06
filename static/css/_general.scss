@@ -1,0 +1,42 @@
+/* General style */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;;
+ }
+
+.seccion__oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion__clara{
+    color: #000;
+    background-color: white;
+}
+.seccion__titulo{
+    font-size: 2rem;
+    padding:15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion__descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+.seccion__texto{
+    font-size: 1.2rem;
+
+}
+
+.texto__negro{
+    color: #000;
+}
+.texto__blanco{
+    color: #fff;
+}
