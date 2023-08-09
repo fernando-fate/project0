@@ -1,0 +1,108 @@
+/* General style */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.seccion__oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion__clara {
+  color: #000;
+  background-color: white;
+}
+
+.seccion__titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.seccion__descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion__texto {
+  font-size: 1.2rem;
+}
+
+.texto__negro {
+  color: #000;
+}
+
+.texto__blanco {
+  color: #fff;
+}
+
+/* Barra de navegacion */
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+  position: sticky;
+  /*position: sticky; /*Esto hace que el navbar se quede pegado en la parte de arriba */
+  /* top: 0; */
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  --clip: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.nav-link::after {
+  content: "";
+  display: block;
+  background-color: #2b182c;
+  width: 90%;
+  height: 3px;
+  margin-top: 3px;
+  -webkit-clip-path: var(--clip);
+          clip-path: var(--clip);
+  transition: -webkit-clip-path 0.5s;
+  transition: clip-path 0.5s;
+  transition: clip-path 0.5s, -webkit-clip-path 0.5s;
+}
+
+.nav-link:hover {
+  --clip:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+  .collapse {
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=cardVideo.css.map */
