@@ -3,25 +3,42 @@
 /*Proyectos  */
 .proyectos__recientes {
     padding: 40px;
+    & img{
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        display: block;
+        transition: all 0.2s ease;
+    }
+    .proyectos__contenedor{
+        padding-top: 60px;
+        margin-bottom: 40px;
+
+        .proyecto{
+            position: relative;
+
+            &:hover .overlay{
+                opacity: 1;
+            }
+
+            &:hover img{
+                opacity: 0.2;
+            }
+        }
+    }
 }
 
-.proyectos__recientes img{
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    display: block;
-    transition: all 0.2s ease;
-}
+// .proyecto:hover .overlay{
+//     opacity: 1;
+// }
 
-.proyectos__contenedor{
-    padding-top: 60px;
-    margin-bottom: 40px;
+// .proyecto:hover img{
+//     opacity: 0.2;
+// }
 
-}
-.proyecto{
-    position: relative;
-}
+
+
 .overlay{
     transition: all 0.2s ease;
     opacity: 0;
@@ -30,14 +47,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+
+    & > p{
+        font-size: 25px;
+        font-weight: hold;
+        margin-bottom: 0;
+    }
 }
 
-.overlay p{
-    font-size:25px;
-    font-weight: hold;
-    margin-bottom: 0;
+// .overlay > p{
+//     font-size:25px;
+//     font-weight: hold;
+//     margin-bottom: 0;
 
-}
+// }
 
 .overlay .iconos__contenedor{
     display: flex;
@@ -49,13 +72,6 @@
     color: black;
     margin: 10px;
     font-size: 60px;
-}
-.proyecto:hover .overlay{
-    opacity: 1;
-}
-
-.proyecto:hover img{
-    opacity: 0.2;
 }
 
 

@@ -1,8 +1,36 @@
+@use 'reset';
+@use 'general';
 @use 'nav';
 
 
 .contenedor{
     display: flex;
+
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
+
+    .card{
+
+        max-width: 70rem;
+
+        &__head{
+           
+            
+            #VideoUNI{
+                width: 100%;
+                min-height: 25rem;
+                
+            }
+
+        }
+
+
+    }
+}
+
+//Arreglar esto
+.card > .card-text{
+    size: 2rem;
 }

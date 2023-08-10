@@ -6,7 +6,7 @@ section {
   justify-content: center;
 }
 
-h1 {
+h1, h2, h3 {
   font-size: 2.5rem;
   font-family: "Rubik Dirt", cursive;
 }
@@ -105,7 +105,6 @@ h1 {
 .proyectos__recientes {
   padding: 40px;
 }
-
 .proyectos__recientes img {
   height: 100%;
   width: 100%;
@@ -114,14 +113,18 @@ h1 {
   display: block;
   transition: all 0.2s ease;
 }
-
-.proyectos__contenedor {
+.proyectos__recientes .proyectos__contenedor {
   padding-top: 60px;
   margin-bottom: 40px;
 }
-
-.proyecto {
+.proyectos__recientes .proyectos__contenedor .proyecto {
   position: relative;
+}
+.proyectos__recientes .proyectos__contenedor .proyecto:hover .overlay {
+  opacity: 1;
+}
+.proyectos__recientes .proyectos__contenedor .proyecto:hover img {
+  opacity: 0.2;
 }
 
 .overlay {
@@ -133,8 +136,7 @@ h1 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-.overlay p {
+.overlay > p {
   font-size: 25px;
   font-weight: hold;
   margin-bottom: 0;
@@ -150,12 +152,4 @@ h1 {
   color: black;
   margin: 10px;
   font-size: 60px;
-}
-
-.proyecto:hover .overlay {
-  opacity: 1;
-}
-
-.proyecto:hover img {
-  opacity: 0.2;
 }/*# sourceMappingURL=proyectos.css.map */

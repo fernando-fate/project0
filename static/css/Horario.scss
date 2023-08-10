@@ -1,6 +1,8 @@
 @use 'reset';
 @use 'nav';
-@mixin titulo(){
+
+
+%titulo{
     font-size: 2rem;
     padding:15px 0;
     font-family: 'Rubik Dirt', cursive;
@@ -23,7 +25,7 @@
             text-transform: uppercase;
             text-align: center;
             padding: 8px;
-            @include titulo;
+            @extend titulo;
         }
     }
 }
