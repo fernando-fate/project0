@@ -8,24 +8,17 @@
     font-family: 'Rubik Dirt', cursive;
 }
 
-.horario{
 
-    &__tabla{
-        caption-side: top;
-        width: 100%;
+
+.horario__tabla{
+    caption-side: top;
+    width: 100%;
+    text-align: center;
+
+    & > caption{
+        text-transform: uppercase;
         text-align: center;
-       
-        tr{
-            height:100px
-        }
-        td{
-            width: 50px;
-        }
-        & > caption{
-            text-transform: uppercase;
-            text-align: center;
-            padding: 8px;
-            @extend titulo;
-        }
+        padding: 8px;
+        @extend %titulo;
     }
 }

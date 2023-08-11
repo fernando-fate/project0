@@ -92,19 +92,18 @@
 
 
 /* testimonios */
-.testimonios{
+.fotos{
     padding: 40px 40px 80px 40px;
    
-}
+    & .carousel{
+        max-width: 800px ;
 
-.testimonios .carousel{
-    max-width: 800px ;
-}
+        &-item{
+            height: 500px;
+        }
+    }
 
-.corousel-item{
-    height:500px;
 }
-
 
 
 @media screen and (min-width:700px) {

@@ -182,15 +182,13 @@ h1, h2, h3 {
 }
 
 /* testimonios */
-.testimonios {
+.fotos {
   padding: 40px 40px 80px 40px;
 }
-
-.testimonios .carousel {
+.fotos .carousel {
   max-width: 800px;
 }
-
-.corousel-item {
+.fotos .carousel-item {
   height: 500px;
 }
 

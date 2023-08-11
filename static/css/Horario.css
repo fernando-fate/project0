@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  box-shadow: 0;
+  box-sizing: 0;
 }
 
 /* General style */
@@ -11,7 +11,7 @@ section {
   justify-content: center;
 }
 
-h1 {
+h1, h2, h3 {
   font-size: 2.5rem;
   font-family: "Rubik Dirt", cursive;
 }
@@ -106,22 +106,19 @@ h1 {
     align-items: center;
   }
 }
+.horario__tabla > caption {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
 .horario__tabla {
   caption-side: top;
   width: 100%;
   text-align: center;
 }
-.horario__tabla tr {
-  height: 100px;
-}
-.horario__tabla td {
-  width: 50px;
-}
 .horario__tabla > caption {
   text-transform: uppercase;
   text-align: center;
   padding: 8px;
-  font-size: 2rem;
-  padding: 15px 0;
-  font-family: "Rubik Dirt", cursive;
 }/*# sourceMappingURL=Horario.css.map */

@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  box-shadow: 0;
+  box-sizing: 0;
 }
 
 /* General style */
@@ -114,7 +114,7 @@ h1, h2, h3 {
   align-items: center;
 }
 .contenedor .card {
-  max-width: 70rem;
+  max-width: 60rem;
 }
 .contenedor .card__head #VideoUNI {
   width: 100%;
