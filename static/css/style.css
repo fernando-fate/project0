@@ -12,13 +12,13 @@ h1, h2, h3 {
 }
 
 .seccion__oscura {
-  color: white;
+  color: #FFF;
   background-color: #1b1b32;
 }
 
 .seccion__clara {
   color: #000;
-  background-color: white;
+  background-color: #FFF;
 }
 
 .seccion__titulo {
@@ -41,7 +41,7 @@ h1, h2, h3 {
 }
 
 .texto__blanco {
-  color: #fff;
+  color: #FFF;
 }
 
 /* Barra de navegacion */
@@ -181,7 +181,7 @@ h1, h2, h3 {
   margin: 5px;
 }
 
-/* testimonios */
+/* Fotos de la uni */
 .fotos {
   padding: 40px 40px 80px 40px;
 }
@@ -189,7 +189,7 @@ h1, h2, h3 {
   max-width: 800px;
 }
 .fotos .carousel-item {
-  height: 500px;
+  height: 400px;
 }
 
 @media screen and (min-width: 700px) {

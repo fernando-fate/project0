@@ -1,26 +1,31 @@
 /* General style */
 //Variables
-
-
+$blanco : #FFF;
+$negro : #000;
+$colorDescripcion : #584e4e;
+$bgColorSeccionOscura: #1b1b32;
+//selector de etiqueta
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+//selector multiple
  h1,h2, h3{
     font-size: 2.5rem;
     font-family: 'Rubik Dirt', cursive;;
  }
-
+ //De clase 
 .seccion__oscura{
-    color: white;
-    background-color: #1b1b32;
+    color: $blanco;
+    background-color: $bgColorSeccionOscura;
 }
-
+// hay selectores pero en otro lado
 .seccion__clara{
-    color: #000;
-    background-color: white;
+    color: $negro;
+    background-color: $blanco;
 }
 .seccion__titulo{
     font-size: 2rem;
@@ -30,7 +35,7 @@ section{
 
 .seccion__descripcion{
     font-size: 1.2rem;
-    color: #584e4e;
+    color: $colorDescripcion;
 }
 .seccion__texto{
     font-size: 1.2rem;
@@ -38,8 +43,8 @@ section{
 }
 
 .texto__negro{
-    color: #000;
+    color: $negro;
 }
 .texto__blanco{
-    color: #fff;
+    color: $blanco;
 }

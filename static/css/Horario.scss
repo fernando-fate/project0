@@ -1,7 +1,7 @@
 @use 'reset';
 @use 'nav';
 
-
+//herencia en css
 %titulo{
     font-size: 2rem;
     padding:15px 0;
@@ -14,11 +14,12 @@
     caption-side: top;
     width: 100%;
     text-align: center;
-
+    //selector de hijos director
     & > caption{
         text-transform: uppercase;
         text-align: center;
         padding: 8px;
+        //uso de la herencia
         @extend %titulo;
     }
 }

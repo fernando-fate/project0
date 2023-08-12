@@ -91,7 +91,7 @@
 
 
 
-/* testimonios */
+/* Fotos de la uni */
 .fotos{
     padding: 40px 40px 80px 40px;
    
@@ -99,12 +99,13 @@
         max-width: 800px ;
 
         &-item{
-            height: 500px;
+            height: 400px;
         }
     }
 
 }
 
+//media querys
 
 @media screen and (min-width:700px) {
     .hero__inferior__imagen{
